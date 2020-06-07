@@ -8,4 +8,4 @@
 
 ### GoolgeDrive
 
-- [GD网盘索引](https://https://od.laoxinhxx.workers.dev/)
+- [GD网盘索引](https://https://ms.laoxinhxx.workers.dev/)

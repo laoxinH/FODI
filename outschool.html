@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>西南石油大学-疫情防控管理平台</title>
+</head>
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+<body style="background-image: url(img/bg.jpg); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;" class="vsc-initialized">
+
+
+<div class="logo">
+    <img src="img/logo.png">
+</div>
+<div class="container">
+    <div class="pad">
+        <div class="infos">
+            <p class="title">西油出入码</p>
+            <p class="info">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：何新喜</p>
+            <p class="info">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：201931012121</p>
+            <p class="info">所属学院：石油与天然气工程学院</p>
+            <p class="info">场地名称：【校本部】南大门</p>
+            <p class="info">进出类型：出</p>
+            <p class="info" id="time"></p>
+        </div>
+        <script>
+            // $(function(){
+            str = '';
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = now.getMonth()+1;
+            var date = now.getDate();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            if (month<10) month = '0'+month
+            if (date<10) date = '0'+date
+            if (hour<10) hour = '0'+hour
+            if (minute<10) minute = '0'+minute
+            str ='扫描时间：'+ year + '.' + month + '.'+ date +' '+hour+':'+minute
+            document.getElementById("time").innerHTML=str;
+            // })
+        </script>
+        <div class="codebox">
+            <div class="tempassimg">
+                <img src="img/qrcard.jpg">
+                <img src="img/self.jpg">
+            </div>
+            <div class="lb"></div>
+            <div class="rb"></div>
+        </div>
+    </div>
+</div>
+<link href="css/MonitoringCard.css" rel="stylesheet">
+<link href="css/menustyle.css" rel="stylesheet">
+<script src="./西南石油大学-疫情防控管理平台_files/menu.js.下载"></script>
+<div id="cd-nav" class="is-fixed">
+    <a href="javascript:void(0)" class="cd-nav-trigger"><span></span></a>
+    <nav id="cd-main-nav">
+        <ul>
+            <li>
+                <a href="http://xg.swpu.edu.cn/SPCP/Web/Account/ChooseSys">
+                    <img src="icon1.png"> 返回首页
+                </a>
+            </li>
+            <li>
+                <a href="http://xg.swpu.edu.cn/SPCP/Web/Account/Logout">
+                    <img src="icon3.png"> 安全退出
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--第二版-->
+</body><div style="all: initial;"><div></div></div></html>
+</html>

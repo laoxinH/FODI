@@ -116,7 +116,7 @@ Main components
 #cd-nav li:last-child a {
     border-bottom: none;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 560px) {
     #cd-nav ul {
         /* the navigation moves to the top */
         position: absolute;

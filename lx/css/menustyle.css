@@ -294,7 +294,7 @@ Main components
     -o-transform: rotate(225deg);
     transform: rotate(225deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 560px) {
     .cd-nav-trigger {
         /* the the menu triger is hidden by default on desktop devices */
         visibility: hidden;
